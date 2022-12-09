@@ -14,6 +14,9 @@ def draw_circle(radius):
     circle(radius)
     penup()
     setposition(0,0)
+def draw_forward():
+    left(90)
+
     
 # Ask the user for 3 radiaii and call the draw_circle function with these values
 penup()
@@ -25,3 +28,4 @@ third_radius = int(input("What is the third circle's radius?: "))
 draw_circle(first_radius)
 draw_circle(second_radius)
 draw_circle(third_radius)
+draw_forward()
